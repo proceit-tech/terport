@@ -1,0 +1,322 @@
+[
+  {
+    "id": "tar-std-impter",
+    "name": "Tarifa Estándar - Importación Terrestre FCL",
+    "type": "STANDARD",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "ownerId": null,
+    "ownerName": "General",
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-12-31",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-001",
+        "serviceCode": "VIL11052",
+        "serviceName": "TASAS PORTUARIAS - BOX RATE CDE",
+        "articleCode": "VIL11052",
+        "calculationType": "BOX_RATE",
+        "value": 88,
+        "minimumAmount": 88,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-002",
+        "serviceCode": "VIL11222",
+        "serviceName": "ENLACE SOFIA",
+        "articleCode": "VIL11222",
+        "calculationType": "FIXED",
+        "value": 18,
+        "minimumAmount": null,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-003",
+        "serviceCode": "VIL11212",
+        "serviceName": "VGM RES. PGN 49/2016",
+        "articleCode": "VIL11212",
+        "calculationType": "FIXED",
+        "value": 12,
+        "minimumAmount": null,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-006",
+        "serviceCode": "PBIP",
+        "serviceName": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "articleCode": "PBIP-IMPTER",
+        "calculationType": "FIXED",
+        "value": 10,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-std-impfcl",
+    "name": "Tarifa Estándar - Importación FCL",
+    "type": "STANDARD",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "ownerId": null,
+    "ownerName": "General",
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-12-31",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-001",
+        "serviceCode": "VIL11052",
+        "serviceName": "TASAS PORTUARIAS - BOX RATE CDE",
+        "articleCode": "VIL11053",
+        "calculationType": "BOX_RATE",
+        "value": 92,
+        "minimumAmount": 92,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-002",
+        "serviceCode": "VIL11222",
+        "serviceName": "ENLACE SOFIA",
+        "articleCode": "VIL11223",
+        "calculationType": "FIXED",
+        "value": 20,
+        "minimumAmount": null,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-008",
+        "serviceCode": "ALM001",
+        "serviceName": "ALMACENAJE",
+        "articleCode": "ALM-IMPFCL",
+        "calculationType": "FIXED",
+        "value": 7.5,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-std-expfcl",
+    "name": "Tarifa Estándar - Exportación FCL",
+    "type": "STANDARD",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "ownerId": null,
+    "ownerName": "General",
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-12-31",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-005",
+        "serviceCode": "VIL21015",
+        "serviceName": "TASAS PORTUARIAS EXPORTACIÓN FCL",
+        "articleCode": "VIL21015",
+        "calculationType": "BOX_RATE",
+        "value": 85,
+        "minimumAmount": 85,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-002",
+        "serviceCode": "VIL11222",
+        "serviceName": "ENLACE SOFIA",
+        "articleCode": "VIL21222",
+        "calculationType": "FIXED",
+        "value": 18,
+        "minimumAmount": null,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-006",
+        "serviceCode": "PBIP",
+        "serviceName": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "articleCode": "PBIP-EXPFCL",
+        "calculationType": "FIXED",
+        "value": 10,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-corp-cliente-sa-impter",
+    "name": "Tarifa Corporativa - CLIENTE SA",
+    "type": "CORPORATE",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "ownerId": "0102461",
+    "ownerName": "CLIENTE SA",
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-12-31",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-001",
+        "serviceCode": "VIL11052",
+        "serviceName": "TASAS PORTUARIAS - BOX RATE CDE",
+        "articleCode": "VIL11052",
+        "calculationType": "BOX_RATE",
+        "value": 78,
+        "minimumAmount": 78,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-002",
+        "serviceCode": "VIL11222",
+        "serviceName": "ENLACE SOFIA",
+        "articleCode": "VIL11222",
+        "calculationType": "FIXED",
+        "value": 0,
+        "minimumAmount": null,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-003",
+        "serviceCode": "VIL11212",
+        "serviceName": "VGM RES. PGN 49/2016",
+        "articleCode": "VIL11212",
+        "calculationType": "FIXED",
+        "value": 9,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-corp-logistico-impfcl",
+    "name": "Tarifa Corporativa - CLIENTE LOGÍSTICO A",
+    "type": "CORPORATE",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "ownerId": "0060344",
+    "ownerName": "CLIENTE LOGÍSTICO A",
+    "validFrom": "2026-08-01",
+    "validUntil": "2027-01-31",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-001",
+        "serviceCode": "VIL11052",
+        "serviceName": "TASAS PORTUARIAS - BOX RATE CDE",
+        "articleCode": "VIL11053",
+        "calculationType": "BOX_RATE",
+        "value": 80,
+        "minimumAmount": 80,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-008",
+        "serviceCode": "ALM001",
+        "serviceName": "ALMACENAJE",
+        "articleCode": "ALM-IMPFCL",
+        "calculationType": "FIXED",
+        "value": 6.25,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-group-log-impter",
+    "name": "Tarifa de Grupo - GRUPO LOGÍSTICO",
+    "type": "GROUP",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "ownerId": "grp-logistico",
+    "ownerName": "GRUPO LOGÍSTICO",
+    "validFrom": "2026-07-01",
+    "validUntil": "2026-11-30",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-001",
+        "serviceCode": "VIL11052",
+        "serviceName": "TASAS PORTUARIAS - BOX RATE CDE",
+        "articleCode": "VIL11052",
+        "calculationType": "BOX_RATE",
+        "value": 82,
+        "minimumAmount": 82,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-002",
+        "serviceCode": "VIL11222",
+        "serviceName": "ENLACE SOFIA",
+        "articleCode": "VIL11222",
+        "calculationType": "FIXED",
+        "value": 14,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-group-comercial-expfcl",
+    "name": "Tarifa de Grupo - GRUPO COMERCIAL",
+    "type": "GROUP",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "ownerId": "grp-comercial",
+    "ownerName": "GRUPO COMERCIAL",
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-10-15",
+    "currency": "USD",
+    "status": "ACTIVE",
+    "lines": [
+      {
+        "serviceId": "srv-005",
+        "serviceCode": "VIL21015",
+        "serviceName": "TASAS PORTUARIAS EXPORTACIÓN FCL",
+        "articleCode": "VIL21015",
+        "calculationType": "BOX_RATE",
+        "value": 79,
+        "minimumAmount": 79,
+        "currency": "USD"
+      },
+      {
+        "serviceId": "srv-006",
+        "serviceCode": "PBIP",
+        "serviceName": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "articleCode": "PBIP-EXPFCL",
+        "calculationType": "FIXED",
+        "value": 8,
+        "minimumAmount": null,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "id": "tar-expired-corp",
+    "name": "Tarifa Corporativa - CLIENTE INDUSTRIAL B",
+    "type": "CORPORATE",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "ownerId": "0064120",
+    "ownerName": "CLIENTE INDUSTRIAL B",
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-08-31",
+    "currency": "USD",
+    "status": "EXPIRED",
+    "lines": [
+      {
+        "serviceId": "srv-005",
+        "serviceCode": "VIL21015",
+        "serviceName": "TASAS PORTUARIAS EXPORTACIÓN FCL",
+        "articleCode": "VIL21015",
+        "calculationType": "BOX_RATE",
+        "value": 76,
+        "minimumAmount": 76,
+        "currency": "USD"
+      }
+    ]
+  }
+]

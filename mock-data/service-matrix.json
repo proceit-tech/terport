@@ -1,0 +1,946 @@
+[
+  {
+    "clientId": "0102461",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-001",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-12-31"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-003",
+          "srv-005",
+          "srv-006"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0001001",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-003",
+          "srv-004",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-30"
+      }
+    ]
+  },
+  {
+    "clientId": "0000258",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-009",
+          "srv-010",
+          "srv-001",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-03-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0010059",
+    "segments": []
+  },
+  {
+    "clientId": "0010462",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-010",
+          "srv-001"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0050156",
+    "segments": []
+  },
+  {
+    "clientId": "0051038",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-003",
+          "srv-005",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "clientId": "0050204",
+    "segments": [
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-008",
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0052182",
+    "segments": []
+  },
+  {
+    "clientId": "0060344",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-001",
+          "srv-002",
+          "srv-003"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-31"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0064120",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-005",
+          "srv-006",
+          "srv-007",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-09-30"
+      }
+    ]
+  },
+  {
+    "clientId": "0070199",
+    "segments": [
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0801781",
+    "segments": [
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-07-26"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-09-11"
+      }
+    ]
+  },
+  {
+    "clientId": "0801918",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-010",
+          "srv-001",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-18"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-10-04"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-11-20"
+      }
+    ]
+  },
+  {
+    "clientId": "0802055",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-009",
+          "srv-010",
+          "srv-001",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-09-10"
+      }
+    ]
+  },
+  {
+    "clientId": "0802192",
+    "segments": []
+  },
+  {
+    "clientId": "0802329",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-005",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-10-26"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-10-08"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-009",
+          "srv-010",
+          "srv-001",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-11-24"
+      }
+    ]
+  },
+  {
+    "clientId": "0802466",
+    "segments": [
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-11-18"
+      }
+    ]
+  },
+  {
+    "clientId": "0802603",
+    "segments": [
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-10-07"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-002",
+          "srv-003",
+          "srv-004",
+          "srv-006",
+          "srv-007"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-23"
+      }
+    ]
+  },
+  {
+    "clientId": "0802740",
+    "segments": []
+  },
+  {
+    "clientId": "0802877",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-006",
+          "srv-007"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-22"
+      }
+    ]
+  },
+  {
+    "clientId": "0803014",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-001",
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-12-15"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-003",
+          "srv-005",
+          "srv-006",
+          "srv-007"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-01-31"
+      }
+    ]
+  },
+  {
+    "clientId": "0803151",
+    "segments": [
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-008",
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-01-07"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-02-23"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-04-11"
+      }
+    ]
+  },
+  {
+    "clientId": "0803288",
+    "segments": []
+  },
+  {
+    "clientId": "0803425",
+    "segments": [
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-02-22"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-04-10"
+      }
+    ]
+  },
+  {
+    "clientId": "0803562",
+    "segments": [
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-008",
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-03-17"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-008",
+          "srv-009",
+          "srv-010",
+          "srv-001"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-05-03"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-06-19"
+      }
+    ]
+  },
+  {
+    "clientId": "0803699",
+    "segments": [
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-04-09"
+      }
+    ]
+  },
+  {
+    "clientId": "0803836",
+    "segments": []
+  },
+  {
+    "clientId": "0803973",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-05-25"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-007",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-07-11"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-08-27"
+      }
+    ]
+  },
+  {
+    "clientId": "0804110",
+    "segments": [
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-06-17"
+      }
+    ]
+  },
+  {
+    "clientId": "0804247",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-003",
+          "srv-005",
+          "srv-006"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-07-10"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-26"
+      }
+    ]
+  },
+  {
+    "clientId": "0804384",
+    "segments": []
+  },
+  {
+    "clientId": "0804521",
+    "segments": [
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-08-25"
+      }
+    ]
+  },
+  {
+    "clientId": "0804658",
+    "segments": [
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-09-17"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008",
+          "srv-009"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-11-03"
+      }
+    ]
+  },
+  {
+    "clientId": "0804795",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-007",
+          "srv-008",
+          "srv-009",
+          "srv-010"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-10-10"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-11-26"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-11-08"
+      }
+    ]
+  },
+  {
+    "clientId": "0804932",
+    "segments": []
+  },
+  {
+    "clientId": "0805069",
+    "segments": [
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-11-25"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-07"
+      }
+    ]
+  },
+  {
+    "clientId": "0805206",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-005",
+          "srv-006",
+          "srv-007"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-10-14"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-30"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-006",
+          "srv-007",
+          "srv-008",
+          "srv-009",
+          "srv-010"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-16"
+      }
+    ]
+  },
+  {
+    "clientId": "0805343",
+    "segments": [
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-06"
+      }
+    ]
+  },
+  {
+    "clientId": "0805480",
+    "segments": []
+  },
+  {
+    "clientId": "0805617",
+    "segments": [
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2026-12-22"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-008",
+          "srv-009",
+          "srv-010"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-02-07"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-007",
+          "srv-008",
+          "srv-002",
+          "srv-003"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-03-26"
+      }
+    ]
+  },
+  {
+    "clientId": "0805754",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-002",
+          "srv-003",
+          "srv-004"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-01-14"
+      }
+    ]
+  },
+  {
+    "clientId": "0805891",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-001",
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-02-06"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-003",
+          "srv-005",
+          "srv-006",
+          "srv-007",
+          "srv-008"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-03-25"
+      }
+    ]
+  },
+  {
+    "clientId": "0806028",
+    "segments": []
+  },
+  {
+    "clientId": "0806165",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-007",
+          "srv-008"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-03-24"
+      }
+    ]
+  },
+  {
+    "clientId": "0806302",
+    "segments": [
+      {
+        "segmentCode": "EXPLCL",
+        "serviceIds": [
+          "srv-002",
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-04-16"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-06-02"
+      }
+    ]
+  },
+  {
+    "clientId": "0806439",
+    "segments": [
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-008",
+          "srv-002",
+          "srv-006"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-05-09"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-004",
+          "srv-006",
+          "srv-007",
+          "srv-008",
+          "srv-009"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-06-25"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-08-11"
+      }
+    ]
+  },
+  {
+    "clientId": "0806576",
+    "segments": []
+  },
+  {
+    "clientId": "0806713",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "serviceIds": [
+          "srv-008",
+          "srv-009"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-06-24"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-10"
+      }
+    ]
+  },
+  {
+    "clientId": "0806850",
+    "segments": [
+      {
+        "segmentCode": "IMPFCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-009"
+        ],
+        "tariffType": "GROUP",
+        "validUntil": "2027-07-17"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "serviceIds": [
+          "srv-006",
+          "srv-007",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "STANDARD",
+        "validUntil": "2027-09-02"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "serviceIds": [
+          "srv-006",
+          "srv-008",
+          "srv-002"
+        ],
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-10-19"
+      }
+    ]
+  }
+]

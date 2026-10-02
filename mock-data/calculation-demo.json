@@ -1,0 +1,442 @@
+{
+  "exchangeRate": {
+    "currency": "USD",
+    "localCurrency": "PYG",
+    "value": 6000,
+    "source": "Waldbott",
+    "updatedAt": "2026-09-12T09:30:00"
+  },
+  "currentUser": {
+    "name": "Administrador TERPORT",
+    "role": "Administrador"
+  },
+  "nextOrderNumber": "PED-000128",
+  "ports": [
+    {
+      "code": "PYVIL",
+      "name": "Villeta"
+    },
+    {
+      "code": "PYASU",
+      "name": "Asunción"
+    },
+    {
+      "code": "PYTER",
+      "name": "TERPORT"
+    }
+  ],
+  "commercialConditions": {
+    "0102461": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0001001": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-11-30"
+    },
+    "0000258": {
+      "creditDays": 15,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-03-31"
+    },
+    "0010059": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0010462": {
+      "creditDays": 45,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0050156": {
+      "creditDays": 60,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0051038": {
+      "creditDays": 90,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-10-15"
+    },
+    "0050204": {
+      "creditDays": 120,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0052182": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0060344": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO COMERCIAL",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-01-31"
+    },
+    "0064120": {
+      "creditDays": 15,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-09-30"
+    },
+    "0070199": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0801781": {
+      "creditDays": 45,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-07-26"
+    },
+    "0801918": {
+      "creditDays": 60,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-08-18"
+    },
+    "0802055": {
+      "creditDays": 90,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2027-09-10"
+    },
+    "0802192": {
+      "creditDays": 120,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0802329": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-10-26"
+    },
+    "0802466": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-11-18"
+    },
+    "0802603": {
+      "creditDays": 15,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-10-07"
+    },
+    "0802740": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0802877": {
+      "creditDays": 45,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-11-22"
+    },
+    "0803014": {
+      "creditDays": 60,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2026-12-15"
+    },
+    "0803151": {
+      "creditDays": 90,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-01-07"
+    },
+    "0803288": {
+      "creditDays": 120,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0803425": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-02-22"
+    },
+    "0803562": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-03-17"
+    },
+    "0803699": {
+      "creditDays": 15,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-04-09"
+    },
+    "0803836": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO COMERCIAL",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0803973": {
+      "creditDays": 45,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2027-05-25"
+    },
+    "0804110": {
+      "creditDays": 60,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-06-17"
+    },
+    "0804247": {
+      "creditDays": 90,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-07-10"
+    },
+    "0804384": {
+      "creditDays": 120,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0804521": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-08-25"
+    },
+    "0804658": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-09-17"
+    },
+    "0804795": {
+      "creditDays": 15,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-10-10"
+    },
+    "0804932": {
+      "creditDays": 30,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0805069": {
+      "creditDays": 45,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-11-25"
+    },
+    "0805206": {
+      "creditDays": 60,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-10-14"
+    },
+    "0805343": {
+      "creditDays": 90,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-11-06"
+    },
+    "0805480": {
+      "creditDays": 120,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0805617": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-22"
+    },
+    "0805754": {
+      "creditDays": 8,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-01-14"
+    },
+    "0805891": {
+      "creditDays": 15,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2027-02-06"
+    },
+    "0806028": {
+      "creditDays": 30,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0806165": {
+      "creditDays": 45,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-03-24"
+    },
+    "0806302": {
+      "creditDays": 60,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO COMERCIAL",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-04-16"
+    },
+    "0806439": {
+      "creditDays": 90,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-05-09"
+    },
+    "0806576": {
+      "creditDays": 120,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": null,
+      "brokerAgreement": null,
+      "quotationValidUntil": "2026-12-31"
+    },
+    "0806713": {
+      "creditDays": 5,
+      "creditAppliedTo": "CLIENT",
+      "economicGroup": "GRUPO LOGÍSTICO",
+      "brokerAgreement": null,
+      "quotationValidUntil": "2027-06-24"
+    },
+    "0806850": {
+      "creditDays": 8,
+      "creditAppliedTo": "BROKER",
+      "economicGroup": null,
+      "brokerAgreement": "AGENCIA / DESPACHANTE ACORDADO",
+      "quotationValidUntil": "2027-07-17"
+    }
+  },
+  "navisRecords": [
+    {
+      "containerNumber": "HASU5037924",
+      "navisDocument": "NAV-45873-01",
+      "port": "PYVIL",
+      "size": "20",
+      "entryDateTime": "2026-09-10T08:30",
+      "cargoType": "DRY",
+      "plugged": false,
+      "sealVerified": true,
+      "opened": false,
+      "verification": true
+    },
+    {
+      "containerNumber": "TGHU9083371",
+      "navisDocument": "NAV-45873-02",
+      "port": "PYVIL",
+      "size": "40",
+      "entryDateTime": "2026-09-09T12:15",
+      "cargoType": "DRY",
+      "plugged": false,
+      "sealVerified": true,
+      "opened": false,
+      "verification": false
+    },
+    {
+      "containerNumber": "MSCU7245108",
+      "navisDocument": "NAV-45873-03",
+      "port": "PYVIL",
+      "size": "40",
+      "entryDateTime": "2026-09-03T16:20",
+      "cargoType": "REEFER",
+      "plugged": true,
+      "sealVerified": true,
+      "opened": false,
+      "verification": true
+    },
+    {
+      "containerNumber": "CMAU1124836",
+      "navisDocument": "NAV-45873-04",
+      "port": "PYASU",
+      "size": "20",
+      "entryDateTime": "2026-09-08T07:50",
+      "cargoType": "REEFER",
+      "plugged": true,
+      "sealVerified": true,
+      "opened": true,
+      "verification": true
+    }
+  ],
+  "automaticRules": [
+    {
+      "id": "AUTO-REEFER-40",
+      "trigger": "REEFER",
+      "serviceId": "srv-004",
+      "label": "Adicional por carga refrigerada",
+      "reason": "Carga refrigerada / enchufada informada por NAVIS",
+      "containerSizes": [
+        "40"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "srv-001",
+    "code": "VIL11052",
+    "name": "TASAS PORTUARIAS - BOX RATE CDE",
+    "category": "TASA_PORTUARIA",
+    "calculationType": "BOX_RATE",
+    "currency": "USD",
+    "minimumAmount": 88,
+    "freeStayDays": 30,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": 0,
+    "rangeEnd": 0,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "VIL11052",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "VIL11053",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-002",
+    "code": "VIL11222",
+    "name": "ENLACE SOFIA",
+    "category": "SERVICIO",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": null,
+    "freeStayDays": null,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": null,
+    "rangeEnd": null,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "VIL11222",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "VIL11223",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "VIL21222",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "articleCode": "VIL21223",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-003",
+    "code": "VIL11212",
+    "name": "VGM RES. PGN 49/2016",
+    "category": "SERVICIO",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": null,
+    "freeStayDays": null,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": null,
+    "rangeEnd": null,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "VIL11212",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "VIL21212",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-004",
+    "code": "VIL17185",
+    "name": "TASAS PORTUARIAS PORCENTUAL 40 FALCON",
+    "category": "TASA_PORTUARIA",
+    "calculationType": "PERCENTAGE",
+    "currency": "USD",
+    "minimumAmount": 132,
+    "freeStayDays": 30,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": 0,
+    "rangeEnd": 0,
+    "containerSizes": [
+      "40"
+    ],
+    "cargoTypes": [
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "VIL17185",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-005",
+    "code": "VIL21015",
+    "name": "TASAS PORTUARIAS EXPORTACIÓN FCL",
+    "category": "TASA_PORTUARIA",
+    "calculationType": "BOX_RATE",
+    "currency": "USD",
+    "minimumAmount": 88,
+    "freeStayDays": 30,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": 0,
+    "rangeEnd": 0,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "VIL21015",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-006",
+    "code": "PBIP",
+    "name": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+    "category": "SERVICIO",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": null,
+    "freeStayDays": null,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": null,
+    "rangeEnd": null,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "PBIP-IMPTER",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "PBIP-IMPFCL",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "PBIP-EXPFCL",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-007",
+    "code": "BGM",
+    "name": "BGM - SERVICIO OPERATIVO",
+    "category": "SERVICIO",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": null,
+    "freeStayDays": null,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": null,
+    "rangeEnd": null,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "BGM-IMPTER",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "BGM-EXPFCL",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-008",
+    "code": "ALM001",
+    "name": "ALMACENAJE",
+    "category": "ALMACENAJE",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": null,
+    "freeStayDays": 5,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": null,
+    "rangeEnd": null,
+    "containerSizes": [
+      "20",
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "M3",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "ALM-IMPTER",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "ALM-IMPFCL",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "articleCode": "ALM-EXPFCL",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-009",
+    "code": "SOB20",
+    "name": "SOBREESTADÍA TERMINAL 20'",
+    "category": "SOBREESTADIA",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": 25,
+    "freeStayDays": 5,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": 1,
+    "rangeEnd": 5,
+    "containerSizes": [
+      "20"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "SOB20-IMPTER",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "SOB20-IMPFCL",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  },
+  {
+    "id": "srv-010",
+    "code": "SOB40",
+    "name": "SOBREESTADÍA TERMINAL 40'",
+    "category": "SOBREESTADIA",
+    "calculationType": "FIXED",
+    "currency": "USD",
+    "minimumAmount": 40,
+    "freeStayDays": 5,
+    "energyPrice": 0,
+    "freeEnergy": 0,
+    "rangeStart": 1,
+    "rangeEnd": 5,
+    "containerSizes": [
+      "40"
+    ],
+    "cargoTypes": [
+      "DRY",
+      "REEFER"
+    ],
+    "storageUnit": "NONE",
+    "segments": [
+      {
+        "segmentCode": "IMPTER",
+        "articleCode": "SOB40-IMPTER",
+        "accountingStatus": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "articleCode": "SOB40-IMPFCL",
+        "accountingStatus": "CONFIGURED"
+      }
+    ],
+    "active": true,
+    "catalogStatus": "ACTIVE"
+  }
+]

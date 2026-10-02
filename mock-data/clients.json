@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "0102461",
+    "code": "0102461",
+    "name": "CLIENTE SA",
+    "ruc": "80024610-1",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-12-31",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0001001",
+    "code": "0001001",
+    "name": "CLIENTE 1",
+    "ruc": "80010010-8",
+    "city": "MARIANO ROQUE ALONSO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-30",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0000258",
+    "code": "0000258",
+    "name": "CLIENTE 2",
+    "ruc": "80002580-3",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-03-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0010059",
+    "code": "0010059",
+    "name": "CLIENTE 3",
+    "ruc": "80010059-9",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0010462",
+    "code": "0010462",
+    "name": "CLIENTE 4",
+    "ruc": "80010462-4",
+    "city": "CIUDAD DEL ESTE",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0050156",
+    "code": "0050156",
+    "name": "CLIENTE 5",
+    "ruc": "80050156-6",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": []
+  },
+  {
+    "id": "0051038",
+    "code": "0051038",
+    "name": "CLIENTE 6",
+    "ruc": "80051038-1",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2026-10-15",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0050204",
+    "code": "0050204",
+    "name": "CLIENTE 7",
+    "ruc": "80050204-0",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-12-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0052182",
+    "code": "0052182",
+    "name": "CLIENTE 8",
+    "ruc": "80052182-7",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": []
+  },
+  {
+    "id": "0060344",
+    "code": "0060344",
+    "name": "CLIENTE LOGÍSTICO A",
+    "ruc": "80060344-1",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-31",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0064120",
+    "code": "0064120",
+    "name": "CLIENTE INDUSTRIAL B",
+    "ruc": "80064120-6",
+    "city": "SAN LORENZO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-09-30",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0070199",
+    "code": "0070199",
+    "name": "CLIENTE COMERCIAL C",
+    "ruc": "80070199-5",
+    "city": "LUQUE",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2026-12-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0801781",
+    "code": "0801781",
+    "name": "CLIENTE DEMO 13",
+    "ruc": "81001261-3",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-07-26",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-09-11",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0801918",
+    "code": "0801918",
+    "name": "CLIENTE DEMO 14",
+    "ruc": "81001358-4",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-18",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-10-04",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-11-20",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0802055",
+    "code": "0802055",
+    "name": "CLIENTE DEMO 15",
+    "ruc": "81001455-5",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-09-10",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0802192",
+    "code": "0802192",
+    "name": "CLIENTE DEMO 16",
+    "ruc": "81001552-6",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0802329",
+    "code": "0802329",
+    "name": "CLIENTE DEMO 17",
+    "ruc": "81001649-7",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-10-26",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-10-08",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-11-24",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0802466",
+    "code": "0802466",
+    "name": "CLIENTE DEMO 18",
+    "ruc": "81001746-8",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-11-18",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0802603",
+    "code": "0802603",
+    "name": "CLIENTE DEMO 19",
+    "ruc": "81001843-9",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-10-07",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-23",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0802740",
+    "code": "0802740",
+    "name": "CLIENTE DEMO 20",
+    "ruc": "81001940-0",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": []
+  },
+  {
+    "id": "0802877",
+    "code": "0802877",
+    "name": "CLIENTE DEMO 21",
+    "ruc": "81002037-1",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-22",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803014",
+    "code": "0803014",
+    "name": "CLIENTE DEMO 22",
+    "ruc": "81002134-2",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-12-15",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-01-31",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803151",
+    "code": "0803151",
+    "name": "CLIENTE DEMO 23",
+    "ruc": "81002231-3",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-01-07",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-02-23",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-04-11",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803288",
+    "code": "0803288",
+    "name": "CLIENTE DEMO 24",
+    "ruc": "81002328-4",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0803425",
+    "code": "0803425",
+    "name": "CLIENTE DEMO 25",
+    "ruc": "81002425-5",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-02-22",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2027-04-10",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803562",
+    "code": "0803562",
+    "name": "CLIENTE DEMO 26",
+    "ruc": "81002522-6",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2027-03-17",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-05-03",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-06-19",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803699",
+    "code": "0803699",
+    "name": "CLIENTE DEMO 27",
+    "ruc": "81002619-7",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-04-09",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0803836",
+    "code": "0803836",
+    "name": "CLIENTE DEMO 28",
+    "ruc": "81002716-8",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0803973",
+    "code": "0803973",
+    "name": "CLIENTE DEMO 29",
+    "ruc": "81002813-9",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-05-25",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-07-11",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-08-27",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804110",
+    "code": "0804110",
+    "name": "CLIENTE DEMO 30",
+    "ruc": "81002910-0",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-06-17",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804247",
+    "code": "0804247",
+    "name": "CLIENTE DEMO 31",
+    "ruc": "81003007-1",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-07-10",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-26",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804384",
+    "code": "0804384",
+    "name": "CLIENTE DEMO 32",
+    "ruc": "81003104-2",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0804521",
+    "code": "0804521",
+    "name": "CLIENTE DEMO 33",
+    "ruc": "81003201-3",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-08-25",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804658",
+    "code": "0804658",
+    "name": "CLIENTE DEMO 34",
+    "ruc": "81003298-4",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-09-17",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-11-03",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804795",
+    "code": "0804795",
+    "name": "CLIENTE DEMO 35",
+    "ruc": "81003395-5",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-10-10",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-11-26",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2026-11-08",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0804932",
+    "code": "0804932",
+    "name": "CLIENTE DEMO 36",
+    "ruc": "81003492-6",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0805069",
+    "code": "0805069",
+    "name": "CLIENTE DEMO 37",
+    "ruc": "81003589-7",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-11-25",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "GROUP",
+        "validUntil": "2026-11-07",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0805206",
+    "code": "0805206",
+    "name": "CLIENTE DEMO 38",
+    "ruc": "81003686-8",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2026-10-14",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-30",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-01-16",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0805343",
+    "code": "0805343",
+    "name": "CLIENTE DEMO 39",
+    "ruc": "81003783-9",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2026-11-06",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0805480",
+    "code": "0805480",
+    "name": "CLIENTE DEMO 40",
+    "ruc": "81003880-0",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": []
+  },
+  {
+    "id": "0805617",
+    "code": "0805617",
+    "name": "CLIENTE DEMO 41",
+    "ruc": "81003977-1",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2026-12-22",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-02-07",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-03-26",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0805754",
+    "code": "0805754",
+    "name": "CLIENTE DEMO 42",
+    "ruc": "81004074-2",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-01-14",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0805891",
+    "code": "0805891",
+    "name": "CLIENTE DEMO 43",
+    "ruc": "81004171-3",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-02-06",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-03-25",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0806028",
+    "code": "0806028",
+    "name": "CLIENTE DEMO 44",
+    "ruc": "81004268-4",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0806165",
+    "code": "0806165",
+    "name": "CLIENTE DEMO 45",
+    "ruc": "81004365-5",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-03-24",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0806302",
+    "code": "0806302",
+    "name": "CLIENTE DEMO 46",
+    "ruc": "81004462-6",
+    "city": "VILLETA",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "EXPLCL",
+        "segmentName": "Exportación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-04-16",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFLU",
+        "segmentName": "Exportación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2027-06-02",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0806439",
+    "code": "0806439",
+    "name": "CLIENTE DEMO 47",
+    "ruc": "81004559-7",
+    "city": "LIMPIO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "GROUP",
+        "validUntil": "2027-05-09",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-06-25",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-08-11",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0806576",
+    "code": "0806576",
+    "name": "CLIENTE DEMO 48",
+    "ruc": "81004656-8",
+    "city": "ENCARNACIÓN",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": []
+  },
+  {
+    "id": "0806713",
+    "code": "0806713",
+    "name": "CLIENTE DEMO 49",
+    "ruc": "81004753-9",
+    "city": "PEDRO JUAN CABALLERO",
+    "country": "Paraguay",
+    "billable": true,
+    "configurations": [
+      {
+        "segmentCode": "IMPTER",
+        "segmentName": "Importación Terrestre FCL",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-06-24",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPLCL",
+        "segmentName": "Importación LCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-08-10",
+        "status": "CONFIGURED"
+      }
+    ]
+  },
+  {
+    "id": "0806850",
+    "code": "0806850",
+    "name": "CLIENTE DEMO 50",
+    "ruc": "81004850-0",
+    "city": "ASUNCIÓN",
+    "country": "Paraguay",
+    "billable": false,
+    "configurations": [
+      {
+        "segmentCode": "IMPFCL",
+        "segmentName": "Importación FCL",
+        "tariffType": "GROUP",
+        "validUntil": "2027-07-17",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "EXPFCL",
+        "segmentName": "Exportación FCL",
+        "tariffType": "STANDARD",
+        "validUntil": "2027-09-02",
+        "status": "CONFIGURED"
+      },
+      {
+        "segmentCode": "IMPFLU",
+        "segmentName": "Importación Fluvial",
+        "tariffType": "CORPORATE",
+        "validUntil": "2027-10-19",
+        "status": "CONFIGURED"
+      }
+    ]
+  }
+]

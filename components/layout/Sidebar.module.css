@@ -1,0 +1,462 @@
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 30;
+
+  width: 244px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #ffffff;
+
+  background: linear-gradient(
+    180deg,
+    #0c4b6f 0%,
+    #08688f 52%,
+    #0586ad 100%
+  );
+
+  box-shadow: 8px 0 28px rgba(10, 61, 89, 0.08);
+
+  transition: width 0.22s ease;
+}
+
+.sidebarCollapsed {
+  width: 78px;
+}
+
+
+/* =========================================================
+   BRAND / LOGO
+   ========================================================= */
+
+.brand {
+  position: relative;
+
+  min-height: 96px;
+  padding: 18px 18px 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: auto;
+  height: 58px;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+.toggleButton {
+  position: absolute;
+
+  top: 50%;
+  right: -13px;
+
+  width: 28px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  color: #0b668f;
+
+  background: #ffffff;
+  border: 1px solid rgba(10, 85, 120, 0.12);
+  border-radius: 50%;
+
+  box-shadow: 0 5px 14px rgba(0, 52, 78, 0.16);
+
+  cursor: pointer;
+
+  transform: translateY(-50%);
+
+  transition:
+    color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.toggleButton:hover {
+  color: #ff932d;
+
+  box-shadow: 0 7px 18px rgba(0, 52, 78, 0.22);
+
+  transform: translateY(-50%) scale(1.04);
+}
+
+
+/* =========================================================
+   PROFILE
+   ========================================================= */
+
+.profile {
+  margin: 0 14px 15px;
+  padding: 10px 11px;
+
+  min-height: 58px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+}
+
+.sidebarCollapsed .profile {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding: 10px;
+
+  justify-content: center;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+
+  flex: 0 0 36px;
+
+  display: grid;
+  place-items: center;
+
+  color: #087ca6;
+
+  background: #ffffff;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.profileText {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.profileText strong {
+  overflow: hidden;
+
+  color: #ffffff;
+
+  font-size: 12px;
+  line-height: 1.25;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.profileText span {
+  color: rgba(255, 255, 255, 0.62);
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.nav {
+  flex: 1;
+
+  padding: 0 10px 14px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.32) transparent;
+}
+
+.nav::-webkit-scrollbar {
+  width: 5px;
+}
+
+.nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.nav::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.24);
+
+  border-radius: 999px;
+}
+
+.nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.42);
+}
+
+
+/* =========================================================
+   MENU GROUPS
+   ========================================================= */
+
+.group {
+  margin-bottom: 8px;
+}
+
+.groupHeader {
+  width: 100%;
+
+  padding: 7px 10px 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: rgba(255, 255, 255, 0.46);
+
+  background: transparent;
+
+  border: 0;
+
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.25px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: color 0.15s ease;
+}
+
+.groupHeader:hover {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+
+/* =========================================================
+   CHEVRON
+   ========================================================= */
+
+.chevron,
+.chevronOpen {
+  transition: transform 0.18s ease;
+}
+
+.chevronOpen {
+  transform: rotate(90deg);
+}
+
+
+/* =========================================================
+   MENU ITEMS
+   ========================================================= */
+
+.groupItems {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+.navItem {
+  position: relative;
+
+  min-height: 38px;
+
+  padding: 0 10px 0 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: rgba(255, 255, 255, 0.72);
+
+  border-radius: 9px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    color 0.16s ease,
+    background 0.16s ease;
+}
+
+.sidebarCollapsed .navItem {
+  min-height: 42px;
+
+  padding: 0;
+
+  justify-content: center;
+}
+
+.navItem:hover {
+  color: #ffffff;
+
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.active {
+  color: #ffffff;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.17),
+    rgba(255, 255, 255, 0.09)
+  );
+}
+
+
+/* =========================================================
+   ACTIVE INDICATOR
+   ========================================================= */
+
+.activeIndicator {
+  position: absolute;
+
+  top: 7px;
+  bottom: 7px;
+  left: 0;
+
+  width: 3px;
+
+  background: #ff9b32;
+
+  border-radius: 0 999px 999px 0;
+
+  opacity: 0;
+
+  transform: scaleY(0.5);
+
+  transition:
+    opacity 0.16s ease,
+    transform 0.16s ease;
+}
+
+.active .activeIndicator {
+  opacity: 1;
+
+  transform: scaleY(1);
+}
+
+
+/* =========================================================
+   ICONS / LABELS
+   ========================================================= */
+
+.icon {
+  width: 22px;
+  height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navItem:hover .icon,
+.active .icon {
+  color: #ffffff;
+}
+
+.label {
+  min-width: 0;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  background: rgba(0, 0, 0, 0.04);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+
+/* =========================================================
+   LOGOUT
+   ========================================================= */
+
+.logoutButton {
+  width: 100%;
+  min-height: 39px;
+
+  padding: 0 11px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+
+  color: rgba(255, 255, 255, 0.78);
+
+  background: rgba(255, 255, 255, 0.07);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    color 0.15s ease,
+    background 0.15s ease;
+}
+
+.logoutButton:hover {
+  color: #ffffff;
+
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.sidebarCollapsed .logoutButton {
+  padding: 0;
+
+  justify-content: center;
+}
+
+
+/* =========================================================
+   INSTITUTION
+   ========================================================= */
+
+.institution {
+  padding: 0 7px 2px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  color: rgba(255, 255, 255, 0.68);
+
+  font-size: 10px;
+}
+
+.institution small {
+  color: rgba(255, 255, 255, 0.4);
+
+  font-size: 9px;
+}

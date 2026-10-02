@@ -1,0 +1,3071 @@
+
+[
+  {
+    "id": "ord-001",
+    "number": "PED-000128",
+    "dispatchNumber": "IMP-45873",
+    "proformaNumber": "PRO-202600001",
+    "clientId": "0102461",
+    "clientCode": "0102461",
+    "clientName": "CLIENTE SA",
+    "ruc": "80024610-1",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-20T09:00",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 88.5,
+    "totalPYG": 529230,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-20T09:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5037900",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5037901",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5037902",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-20T09:00",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600001."
+      }
+    ]
+  },
+  {
+    "id": "ord-002",
+    "number": "PED-000129",
+    "dispatchNumber": "IMP-45874",
+    "proformaNumber": "PRO-202600002",
+    "clientId": "0001001",
+    "clientCode": "0001001",
+    "clientName": "CLIENTE 1",
+    "ruc": "80010010-8",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-21T10:09",
+    "createdBy": "María González",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 5990,
+    "totalUSD": 187.0,
+    "totalPYG": 1120130,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001241",
+    "invoiceDate": "2026-08-23T10:09",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-21T10:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5037913",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5037914",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5037915",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5037916",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-21T10:09",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600002."
+      },
+      {
+        "dateTime": "2026-08-23T10:09",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001241 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-003",
+    "number": "PED-000130",
+    "dispatchNumber": "IMP-45875",
+    "proformaNumber": "PRO-202600003",
+    "clientId": "0000258",
+    "clientCode": "0000258",
+    "clientName": "CLIENTE 2",
+    "ruc": "80002580-3",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "direction": "IMPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-22T11:18",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6000,
+    "totalUSD": 1280.98,
+    "totalPYG": 7685880,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-22T11:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5037926",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5037927",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5037928",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5037929",
+        "quantity": 14,
+        "unit": "m³",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 1057.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5037930",
+        "quantity": 4,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 66.48,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-22T11:18",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600003."
+      }
+    ]
+  },
+  {
+    "id": "ord-004",
+    "number": "PED-000131",
+    "dispatchNumber": "EXP-45876",
+    "proformaNumber": "PRO-202600004",
+    "clientId": "0010059",
+    "clientCode": "0010059",
+    "clientName": "CLIENTE 3",
+    "ruc": "80010059-9",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-23T12:27",
+    "createdBy": "Facturación 01",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 6010,
+    "totalUSD": 1249.0,
+    "totalPYG": 7506490,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-23T12:42",
+    "cancelledAt": "2026-08-23T18:27",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5037939",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5037940",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5037941",
+        "quantity": 15,
+        "unit": "m³",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 1132.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-23T12:27",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600004."
+      },
+      {
+        "dateTime": "2026-08-23T18:27",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-005",
+    "number": "PED-000132",
+    "dispatchNumber": "IMP-45877",
+    "proformaNumber": "PRO-202600005",
+    "clientId": "0010462",
+    "clientCode": "0010462",
+    "clientName": "CLIENTE 4",
+    "ruc": "80010462-4",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-24T13:36",
+    "createdBy": "Administrador TERPORT",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6020,
+    "totalUSD": 1518.12,
+    "totalPYG": 9139082,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001244",
+    "invoiceDate": "2026-08-26T13:36",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-24T13:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5037952",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5037953",
+        "quantity": 16,
+        "unit": "m³",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 1208.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5037954",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 99.72,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5037955",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 146.4,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-24T13:36",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600005."
+      },
+      {
+        "dateTime": "2026-08-26T13:36",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001244 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-006",
+    "number": "PED-000133",
+    "dispatchNumber": "IMP-45878",
+    "proformaNumber": "PRO-202600006",
+    "clientId": "0050156",
+    "clientCode": "0050156",
+    "clientName": "CLIENTE 5",
+    "ruc": "80050156-6",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-25T14:45",
+    "createdBy": "María González",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6030,
+    "totalUSD": 1436.04,
+    "totalPYG": 8659321,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-25T15:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5037965",
+        "quantity": 17,
+        "unit": "m³",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 1283.5,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5037966",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 33.24,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5037967",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 48.8,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5037968",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5037969",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-25T14:45",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600006."
+      }
+    ]
+  },
+  {
+    "id": "ord-007",
+    "number": "PED-000134",
+    "dispatchNumber": "EXP-45879",
+    "proformaNumber": "PRO-202600007",
+    "clientId": "0051038",
+    "clientCode": "0051038",
+    "clientName": "CLIENTE 6",
+    "ruc": "80051038-1",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-26T15:54",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6040,
+    "totalUSD": 152.56,
+    "totalPYG": 921462,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-26T16:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5037978",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 49.86,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5037979",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 73.2,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5037980",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-26T15:54",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600007."
+      }
+    ]
+  },
+  {
+    "id": "ord-008",
+    "number": "PED-000135",
+    "dispatchNumber": "IMP-45880",
+    "proformaNumber": "PRO-202600008",
+    "clientId": "0050204",
+    "clientCode": "0050204",
+    "clientName": "CLIENTE 7",
+    "ruc": "80050204-0",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-27T16:03",
+    "createdBy": "Facturación 01",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 220.6,
+    "totalPYG": 1319188,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001247",
+    "invoiceDate": "2026-08-29T16:03",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-27T16:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5037991",
+        "quantity": 4,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 97.6,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5037992",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5037993",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5037994",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-27T16:03",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600008."
+      },
+      {
+        "dateTime": "2026-08-29T16:03",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001247 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-009",
+    "number": "PED-000136",
+    "dispatchNumber": "IMP-45881",
+    "proformaNumber": "PRO-202600009",
+    "clientId": "0052182",
+    "clientCode": "0052182",
+    "clientName": "CLIENTE 8",
+    "ruc": "80052182-7",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-28T09:12",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 5990,
+    "totalUSD": 262.5,
+    "totalPYG": 1572375,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-28T09:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038004",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038005",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038006",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038007",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038008",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-28T09:12",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600009."
+      }
+    ]
+  },
+  {
+    "id": "ord-010",
+    "number": "PED-000137",
+    "dispatchNumber": "IMP-45882",
+    "proformaNumber": "PRO-202600010",
+    "clientId": "0060344",
+    "clientCode": "0060344",
+    "clientName": "CLIENTE LOGÍSTICO A",
+    "ruc": "80060344-1",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-29T10:21",
+    "createdBy": "María González",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 6000,
+    "totalUSD": 157.5,
+    "totalPYG": 945000,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-29T10:42",
+    "cancelledAt": "2026-08-29T16:21",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038017",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038018",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038019",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-29T10:21",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600010."
+      },
+      {
+        "dateTime": "2026-08-29T16:21",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-011",
+    "number": "PED-000138",
+    "dispatchNumber": "EXP-45883",
+    "proformaNumber": "PRO-202600011",
+    "clientId": "0064120",
+    "clientCode": "0064120",
+    "clientName": "CLIENTE INDUSTRIAL B",
+    "ruc": "80064120-6",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-30T11:30",
+    "createdBy": "Carlos Benítez",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6010,
+    "totalUSD": 1323.0,
+    "totalPYG": 7951230,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001250",
+    "invoiceDate": "2026-09-01T11:30",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-30T11:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038030",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038031",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038032",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038033",
+        "quantity": 13,
+        "unit": "m³",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 1131.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-30T11:30",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600011."
+      },
+      {
+        "dateTime": "2026-09-01T11:30",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001250 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-012",
+    "number": "PED-000139",
+    "dispatchNumber": "IMP-45884",
+    "proformaNumber": "PRO-202600012",
+    "clientId": "0070199",
+    "clientCode": "0070199",
+    "clientName": "CLIENTE COMERCIAL C",
+    "ruc": "80070199-5",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-31T12:39",
+    "createdBy": "Facturación 01",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6020,
+    "totalUSD": 1480.56,
+    "totalPYG": 8912971,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-31T13:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038043",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038044",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038045",
+        "quantity": 14,
+        "unit": "m³",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 1218.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038046",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 49.86,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038047",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 73.2,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-31T12:39",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600012."
+      }
+    ]
+  },
+  {
+    "id": "ord-013",
+    "number": "PED-000140",
+    "dispatchNumber": "EXP-45885",
+    "proformaNumber": "PRO-202600013",
+    "clientId": "0801781",
+    "clientCode": "0801781",
+    "clientName": "CLIENTE DEMO 13",
+    "ruc": "81001261-3",
+    "segmentCode": "EXPFLU",
+    "segmentName": "Exportación Fluvial",
+    "direction": "EXPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-09-01T13:48",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6030,
+    "totalUSD": 1446.98,
+    "totalPYG": 8725289,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-01T14:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038056",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038057",
+        "quantity": 15,
+        "unit": "m³",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 1305.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038058",
+        "quantity": 4,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 66.48,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-01T13:48",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600013."
+      }
+    ]
+  },
+  {
+    "id": "ord-014",
+    "number": "PED-000141",
+    "dispatchNumber": "IMP-45886",
+    "proformaNumber": "PRO-202600014",
+    "clientId": "0801918",
+    "clientCode": "0801918",
+    "clientName": "CLIENTE DEMO 14",
+    "ruc": "81001358-4",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-02T14:57",
+    "createdBy": "María González",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6040,
+    "totalUSD": 1638.1,
+    "totalPYG": 9894124,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001253",
+    "invoiceDate": "2026-09-04T14:57",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-02T15:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038069",
+        "quantity": 16,
+        "unit": "m³",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 1392.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038070",
+        "quantity": 5,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 83.1,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038071",
+        "quantity": 5,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 122.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038072",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-02T14:57",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600014."
+      },
+      {
+        "dateTime": "2026-09-04T14:57",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001253 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-015",
+    "number": "PED-000142",
+    "dispatchNumber": "IMP-45887",
+    "proformaNumber": "PRO-202600015",
+    "clientId": "0802055",
+    "clientCode": "0802055",
+    "clientName": "CLIENTE DEMO 15",
+    "ruc": "81001455-5",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-03T15:06",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 403.62,
+    "totalPYG": 2413648,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-03T15:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038082",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 99.72,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038083",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 146.4,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038084",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038085",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038086",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-03T15:06",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600015."
+      }
+    ]
+  },
+  {
+    "id": "ord-016",
+    "number": "PED-000143",
+    "dispatchNumber": "IMP-45888",
+    "proformaNumber": "PRO-202600016",
+    "clientId": "0802192",
+    "clientCode": "0802192",
+    "clientName": "CLIENTE DEMO 16",
+    "ruc": "81001552-6",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-04T16:15",
+    "createdBy": "Facturación 01",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 5990,
+    "totalUSD": 142.3,
+    "totalPYG": 852377,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-04T16:42",
+    "cancelledAt": "2026-09-04T22:15",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038095",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 48.8,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038096",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038097",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-04T16:15",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600016."
+      },
+      {
+        "dateTime": "2026-09-04T22:15",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-017",
+    "number": "PED-000144",
+    "dispatchNumber": "IMP-45889",
+    "proformaNumber": "PRO-202600017",
+    "clientId": "0802329",
+    "clientCode": "0802329",
+    "clientName": "CLIENTE DEMO 17",
+    "ruc": "81001649-7",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-05T09:24",
+    "createdBy": "Administrador TERPORT",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6000,
+    "totalUSD": 233.0,
+    "totalPYG": 1398000,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001256",
+    "invoiceDate": "2026-09-07T09:24",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-05T09:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038108",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 41.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038109",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038110",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038111",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-05T09:24",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600017."
+      },
+      {
+        "dateTime": "2026-09-07T09:24",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001256 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-018",
+    "number": "PED-000145",
+    "dispatchNumber": "EXP-45890",
+    "proformaNumber": "PRO-202600018",
+    "clientId": "0802466",
+    "clientCode": "0802466",
+    "clientName": "CLIENTE DEMO 18",
+    "ruc": "81001746-8",
+    "segmentCode": "EXPLCL",
+    "segmentName": "Exportación LCL",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-06T10:33",
+    "createdBy": "María González",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6010,
+    "totalUSD": 639.0,
+    "totalPYG": 3840390,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-06T11:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038121",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038122",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038123",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038124",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038125",
+        "quantity": 20,
+        "unit": "m³",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 360.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-06T10:33",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600018."
+      }
+    ]
+  },
+  {
+    "id": "ord-019",
+    "number": "PED-000146",
+    "dispatchNumber": "IMP-45891",
+    "proformaNumber": "PRO-202600019",
+    "clientId": "0802603",
+    "clientCode": "0802603",
+    "clientName": "CLIENTE DEMO 19",
+    "ruc": "81001843-9",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-09-07T11:42",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6020,
+    "totalUSD": 226.5,
+    "totalPYG": 1363530,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-07T12:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038134",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038135",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038136",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-07T11:42",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600019."
+      }
+    ]
+  },
+  {
+    "id": "ord-020",
+    "number": "PED-000147",
+    "dispatchNumber": "IMP-45892",
+    "proformaNumber": "PRO-202600020",
+    "clientId": "0802740",
+    "clientCode": "0802740",
+    "clientName": "CLIENTE DEMO 20",
+    "ruc": "81001940-0",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-09-08T12:51",
+    "createdBy": "Facturación 01",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6030,
+    "totalUSD": 496.22,
+    "totalPYG": 2992207,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001259",
+    "invoiceDate": "2026-09-10T12:51",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-08T13:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038147",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038148",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038149",
+        "quantity": 13,
+        "unit": "m³",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 234.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038150",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 99.72,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-08T12:51",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600020."
+      },
+      {
+        "dateTime": "2026-09-10T12:51",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001259 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-021",
+    "number": "PED-000148",
+    "dispatchNumber": "IMP-45893",
+    "proformaNumber": "PRO-202600021",
+    "clientId": "0802877",
+    "clientCode": "0802877",
+    "clientName": "CLIENTE DEMO 21",
+    "ruc": "81002037-1",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-09T13:00",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6040,
+    "totalUSD": 473.54,
+    "totalPYG": 2860182,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-09T13:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038160",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038161",
+        "quantity": 14,
+        "unit": "m³",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 252.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038162",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 33.24,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038163",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 48.8,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038164",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-09T13:00",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600021."
+      }
+    ]
+  },
+  {
+    "id": "ord-022",
+    "number": "PED-000149",
+    "dispatchNumber": "EXP-45894",
+    "proformaNumber": "PRO-202600022",
+    "clientId": "0803014",
+    "clientCode": "0803014",
+    "clientName": "CLIENTE DEMO 22",
+    "ruc": "81002134-2",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-09-10T14:09",
+    "createdBy": "María González",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 393.06,
+    "totalPYG": 2350499,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-10T14:42",
+    "cancelledAt": "2026-09-10T20:09",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038173",
+        "quantity": 15,
+        "unit": "m³",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 270.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038174",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 49.86,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038175",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 73.2,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-10T14:09",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600022."
+      },
+      {
+        "dateTime": "2026-09-10T20:09",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-023",
+    "number": "PED-000150",
+    "dispatchNumber": "EXP-45895",
+    "proformaNumber": "PRO-202600023",
+    "clientId": "0803151",
+    "clientCode": "0803151",
+    "clientName": "CLIENTE DEMO 23",
+    "ruc": "81002231-3",
+    "segmentCode": "EXPLCL",
+    "segmentName": "Exportación LCL",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-09-11T15:18",
+    "createdBy": "Carlos Benítez",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 5990,
+    "totalUSD": 280.58,
+    "totalPYG": 1680674,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001262",
+    "invoiceDate": "2026-09-13T15:18",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-09-11T15:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038186",
+        "quantity": 4,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 66.48,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038187",
+        "quantity": 4,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 97.6,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038188",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038189",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-11T15:18",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600023."
+      },
+      {
+        "dateTime": "2026-09-13T15:18",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001262 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-024",
+    "number": "PED-000151",
+    "dispatchNumber": "IMP-45896",
+    "proformaNumber": "PRO-202600024",
+    "clientId": "0803288",
+    "clientCode": "0803288",
+    "clientName": "CLIENTE DEMO 24",
+    "ruc": "81002328-4",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-09-12T16:27",
+    "createdBy": "Facturación 01",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6000,
+    "totalUSD": 401.0,
+    "totalPYG": 2406000,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-12T17:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038199",
+        "quantity": 5,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 122.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038200",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038201",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038202",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038203",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-12T16:27",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600024."
+      }
+    ]
+  },
+  {
+    "id": "ord-025",
+    "number": "PED-000152",
+    "dispatchNumber": "EXP-45897",
+    "proformaNumber": "PRO-202600025",
+    "clientId": "0803425",
+    "clientCode": "0803425",
+    "clientName": "CLIENTE DEMO 25",
+    "ruc": "81002425-5",
+    "segmentCode": "EXPLCL",
+    "segmentName": "Exportación LCL",
+    "direction": "EXPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-09-13T09:36",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6010,
+    "totalUSD": 192.0,
+    "totalPYG": 1153920,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-09-13T10:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038212",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 52.5,
+        "totalUSD": 52.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038213",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038214",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-09-13T09:36",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600025."
+      }
+    ]
+  },
+  {
+    "id": "ord-026",
+    "number": "PED-000153",
+    "dispatchNumber": "IMP-45898",
+    "proformaNumber": "PRO-202600026",
+    "clientId": "0803562",
+    "clientCode": "0803562",
+    "clientName": "CLIENTE DEMO 26",
+    "ruc": "81002522-6",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-20T10:45",
+    "createdBy": "María González",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6020,
+    "totalUSD": 244.5,
+    "totalPYG": 1471890,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001265",
+    "invoiceDate": "2026-08-22T10:45",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-20T11:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038225",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038226",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038227",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038228",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-20T10:45",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600026."
+      },
+      {
+        "dateTime": "2026-08-22T10:45",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001265 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-027",
+    "number": "PED-000154",
+    "dispatchNumber": "EXP-45899",
+    "proformaNumber": "PRO-202600027",
+    "clientId": "0803699",
+    "clientCode": "0803699",
+    "clientName": "CLIENTE DEMO 27",
+    "ruc": "81002619-7",
+    "segmentCode": "EXPFLU",
+    "segmentName": "Exportación Fluvial",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-21T11:54",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6030,
+    "totalUSD": 820.36,
+    "totalPYG": 4946771,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-21T12:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038238",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038239",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038240",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038241",
+        "quantity": 20,
+        "unit": "m³",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 590.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038242",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 49.86,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-21T11:54",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600027."
+      }
+    ]
+  },
+  {
+    "id": "ord-028",
+    "number": "PED-000155",
+    "dispatchNumber": "EXP-45900",
+    "proformaNumber": "PRO-202600028",
+    "clientId": "0803836",
+    "clientCode": "0803836",
+    "clientName": "CLIENTE DEMO 28",
+    "ruc": "81002716-8",
+    "segmentCode": "EXPFLU",
+    "segmentName": "Exportación Fluvial",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-22T12:03",
+    "createdBy": "Facturación 01",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 6040,
+    "totalUSD": 459.0,
+    "totalPYG": 2772360,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-22T12:42",
+    "cancelledAt": "2026-08-22T18:03",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038251",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038252",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038253",
+        "quantity": 12,
+        "unit": "m³",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 354.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-22T12:03",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600028."
+      },
+      {
+        "dateTime": "2026-08-22T18:03",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-029",
+    "number": "PED-000156",
+    "dispatchNumber": "EXP-45901",
+    "proformaNumber": "PRO-202600029",
+    "clientId": "0803973",
+    "clientCode": "0803973",
+    "clientName": "CLIENTE DEMO 29",
+    "ruc": "81002813-9",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-23T13:12",
+    "createdBy": "Administrador TERPORT",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 606.6,
+    "totalPYG": 3627468,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001268",
+    "invoiceDate": "2026-08-25T13:12",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-23T13:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038264",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038265",
+        "quantity": 13,
+        "unit": "m³",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 383.5,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038266",
+        "quantity": 5,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 83.1,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038267",
+        "quantity": 5,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 122.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-23T13:12",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600029."
+      },
+      {
+        "dateTime": "2026-08-25T13:12",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001268 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-030",
+    "number": "PED-000157",
+    "dispatchNumber": "IMP-45902",
+    "proformaNumber": "PRO-202600030",
+    "clientId": "0804110",
+    "clientCode": "0804110",
+    "clientName": "CLIENTE DEMO 30",
+    "ruc": "81002910-0",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-24T14:21",
+    "createdBy": "María González",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 5990,
+    "totalUSD": 798.62,
+    "totalPYG": 4783734,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-24T15:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038277",
+        "quantity": 14,
+        "unit": "m³",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 413.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038278",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 99.72,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038279",
+        "quantity": 6,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 146.4,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038280",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038281",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-24T14:21",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600030."
+      }
+    ]
+  },
+  {
+    "id": "ord-031",
+    "number": "PED-000158",
+    "dispatchNumber": "EXP-45903",
+    "proformaNumber": "PRO-202600031",
+    "clientId": "0804247",
+    "clientCode": "0804247",
+    "clientName": "CLIENTE DEMO 31",
+    "ruc": "81003007-1",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-25T15:30",
+    "createdBy": "Carlos Benítez",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6000,
+    "totalUSD": 146.04,
+    "totalPYG": 876240,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-25T16:12",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038290",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 33.24,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038291",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 48.8,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038292",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-25T15:30",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600031."
+      }
+    ]
+  },
+  {
+    "id": "ord-032",
+    "number": "PED-000159",
+    "dispatchNumber": "EXP-45904",
+    "proformaNumber": "PRO-202600032",
+    "clientId": "0804384",
+    "clientCode": "0804384",
+    "clientName": "CLIENTE DEMO 32",
+    "ruc": "81003104-2",
+    "segmentCode": "EXPFCL",
+    "segmentName": "Exportación FCL",
+    "direction": "EXPORT",
+    "tariffType": "CORPORATE",
+    "createdAt": "2026-08-26T16:39",
+    "createdBy": "Facturación 01",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6010,
+    "totalUSD": 299.7,
+    "totalPYG": 1801197,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001271",
+    "invoiceDate": "2026-08-28T16:39",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-26T17:22",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038303",
+        "quantity": 3,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 73.2,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038304",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038305",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038306",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-26T16:39",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600032."
+      },
+      {
+        "dateTime": "2026-08-28T16:39",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001271 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-033",
+    "number": "PED-000160",
+    "dispatchNumber": "IMP-45905",
+    "proformaNumber": "PRO-202600033",
+    "clientId": "0804521",
+    "clientCode": "0804521",
+    "clientName": "CLIENTE DEMO 33",
+    "ruc": "81003201-3",
+    "segmentCode": "IMPFLU",
+    "segmentName": "Importación Fluvial",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-27T09:48",
+    "createdBy": "Administrador TERPORT",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 6020,
+    "totalUSD": 274.0,
+    "totalPYG": 1649480,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-27T10:32",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11052",
+        "concept": "TASAS PORTUARIAS - BOX RATE CDE",
+        "reference": "HASU5038316",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 64.0,
+        "totalUSD": 64.0,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038317",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038318",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038319",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038320",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-27T09:48",
+        "user": "Administrador TERPORT",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600033."
+      }
+    ]
+  },
+  {
+    "id": "ord-034",
+    "number": "PED-000161",
+    "dispatchNumber": "IMP-45906",
+    "proformaNumber": "PRO-202600034",
+    "clientId": "0804658",
+    "clientCode": "0804658",
+    "clientName": "CLIENTE DEMO 34",
+    "ruc": "81003298-4",
+    "segmentCode": "IMPFCL",
+    "segmentName": "Importación FCL",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-28T10:57",
+    "createdBy": "María González",
+    "status": "CANCELLED",
+    "currency": "USD",
+    "exchangeRate": 6030,
+    "totalUSD": 180.5,
+    "totalPYG": 1088415,
+    "containers20": 0,
+    "containers40": 1,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-28T11:42",
+    "cancelledAt": "2026-08-28T16:57",
+    "cancelledBy": "Facturación 01",
+    "cancellationReason": "Solicitud de anulación por cambio operativo.",
+    "lines": [
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "MSCU5038329",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 75.5,
+        "totalUSD": 75.5,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038330",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038331",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-28T10:57",
+        "user": "María González",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600034."
+      },
+      {
+        "dateTime": "2026-08-28T16:57",
+        "user": "Facturación 01",
+        "action": "CANCELLED",
+        "detail": "Solicitud de anulación por cambio operativo."
+      }
+    ]
+  },
+  {
+    "id": "ord-035",
+    "number": "PED-000162",
+    "dispatchNumber": "IMP-45907",
+    "proformaNumber": "PRO-202600035",
+    "clientId": "0804795",
+    "clientCode": "0804795",
+    "clientName": "CLIENTE DEMO 35",
+    "ruc": "81003395-5",
+    "segmentCode": "IMPLCL",
+    "segmentName": "Importación LCL",
+    "direction": "IMPORT",
+    "tariffType": "STANDARD",
+    "createdAt": "2026-08-29T11:06",
+    "createdBy": "Carlos Benítez",
+    "status": "INVOICED",
+    "currency": "USD",
+    "exchangeRate": 6040,
+    "totalUSD": 913.5,
+    "totalPYG": 5517540,
+    "containers20": 1,
+    "containers40": 2,
+    "invoiceNumber": "001-001-0001274",
+    "invoiceDate": "2026-08-31T11:06",
+    "syncStatus": "SYNCED",
+    "lastSyncAt": "2026-08-29T11:52",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "VIL11212",
+        "concept": "VGM RES. PGN 49/2016",
+        "reference": "HASU5038342",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 87.0,
+        "totalUSD": 87.0,
+        "exonerated": false
+      },
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038343",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038344",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038345",
+        "quantity": 19,
+        "unit": "m³",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 779.0,
+        "exonerated": false
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-29T11:06",
+        "user": "Carlos Benítez",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600035."
+      },
+      {
+        "dateTime": "2026-08-31T11:06",
+        "user": "Waldbott",
+        "action": "INVOICED",
+        "detail": "Factura 001-001-0001274 asociada al pedido."
+      }
+    ]
+  },
+  {
+    "id": "ord-036",
+    "number": "PED-000163",
+    "dispatchNumber": "IMP-45908",
+    "proformaNumber": "PRO-202600036",
+    "clientId": "0804932",
+    "clientCode": "0804932",
+    "clientName": "CLIENTE DEMO 36",
+    "ruc": "81003492-6",
+    "segmentCode": "IMPTER",
+    "segmentName": "Importación Terrestre FCL",
+    "direction": "IMPORT",
+    "tariffType": "GROUP",
+    "createdAt": "2026-08-30T12:15",
+    "createdBy": "Facturación 01",
+    "status": "PENDING",
+    "currency": "USD",
+    "exchangeRate": 5980,
+    "totalUSD": 949.54,
+    "totalPYG": 5678249,
+    "containers20": 2,
+    "containers40": 0,
+    "invoiceNumber": null,
+    "invoiceDate": null,
+    "syncStatus": "PENDING",
+    "lastSyncAt": "2026-08-30T13:02",
+    "cancelledAt": null,
+    "cancelledBy": null,
+    "cancellationReason": null,
+    "lines": [
+      {
+        "code": "PBIP",
+        "concept": "PROTECCIÓN DE BUQUES E INSTALACIONES PORTUARIAS",
+        "reference": "MSCU5038355",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 18.0,
+        "totalUSD": 18.0,
+        "exonerated": false
+      },
+      {
+        "code": "BGM",
+        "concept": "BGM - SERVICIO OPERATIVO",
+        "reference": "HASU5038356",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 29.5,
+        "totalUSD": 29.5,
+        "exonerated": false
+      },
+      {
+        "code": "ALM001",
+        "concept": "ALMACENAJE",
+        "reference": "MSCU5038357",
+        "quantity": 20,
+        "unit": "m³",
+        "unitPriceUSD": 41.0,
+        "totalUSD": 820.0,
+        "exonerated": false
+      },
+      {
+        "code": "SOB20",
+        "concept": "SOBREESTADÍA TERMINAL 20'",
+        "reference": "HASU5038358",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 16.62,
+        "totalUSD": 33.24,
+        "exonerated": false
+      },
+      {
+        "code": "SOB40",
+        "concept": "SOBREESTADÍA TERMINAL 40'",
+        "reference": "MSCU5038359",
+        "quantity": 2,
+        "unit": "u.",
+        "unitPriceUSD": 24.4,
+        "totalUSD": 48.8,
+        "exonerated": false
+      },
+      {
+        "code": "VIL11222",
+        "concept": "ENLACE SOFIA",
+        "reference": "Exonerado por condición comercial",
+        "quantity": 1,
+        "unit": "u.",
+        "unitPriceUSD": 0,
+        "totalUSD": 0,
+        "exonerated": true
+      }
+    ],
+    "history": [
+      {
+        "dateTime": "2026-08-30T12:15",
+        "user": "Facturación 01",
+        "action": "CREATED",
+        "detail": "Pedido generado desde PRO-202600036."
+      }
+    ]
+  }
+]

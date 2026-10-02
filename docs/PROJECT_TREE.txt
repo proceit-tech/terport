@@ -1,0 +1,447 @@
+TERPORT_SISTEMA_TARIFARIO/
+├── app
+│   ├── (app)
+│   │   ├── appointments
+│   │   │   └── page.tsx
+│   │   ├── audit
+│   │   │   └── page.tsx
+│   │   ├── brokers
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── calculations
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── clients
+│   │   │   ├── [id]
+│   │   │   │   ├── edit
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── commercial-groups
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── dashboard
+│   │   │   └── page.tsx
+│   │   ├── orders
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── proformas
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── reports
+│   │   │   └── page.tsx
+│   │   ├── service-matrix
+│   │   │   └── page.tsx
+│   │   ├── services
+│   │   │   ├── [id]
+│   │   │   │   ├── edit
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── settings
+│   │   │   ├── catalogs
+│   │   │   │   └── page.tsx
+│   │   │   ├── general
+│   │   │   │   └── page.tsx
+│   │   │   ├── integrations
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── tariffs
+│   │   │   ├── [id]
+│   │   │   │   ├── edit
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── corporate
+│   │   │   │   └── page.tsx
+│   │   │   ├── group
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   ├── standard
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── users
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── new
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── (auth)
+│   │   ├── forgot-password
+│   │   │   └── page.tsx
+│   │   ├── login
+│   │   │   └── page.tsx
+│   │   ├── unauthorized
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── api
+│   │   ├── audit
+│   │   │   └── route.ts
+│   │   ├── auth
+│   │   │   ├── login
+│   │   │   │   └── route.ts
+│   │   │   ├── logout
+│   │   │   │   └── route.ts
+│   │   │   └── me
+│   │   │       └── route.ts
+│   │   ├── brokers
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── calculations
+│   │   │   ├── [id]
+│   │   │   │   ├── confirm
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── validate
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── clients
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── commercial-groups
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── health
+│   │   │   └── route.ts
+│   │   ├── integrations
+│   │   │   ├── navis
+│   │   │   │   ├── container
+│   │   │   │   │   └── [containerNumber]
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── containers
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── health
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── sync
+│   │   │   │       └── route.ts
+│   │   │   └── waldbott
+│   │   │       ├── exchange-rate
+│   │   │       │   └── route.ts
+│   │   │       ├── health
+│   │   │       │   └── route.ts
+│   │   │       ├── orders
+│   │   │       │   └── route.ts
+│   │   │       └── sync-clients
+│   │   │           └── route.ts
+│   │   ├── orders
+│   │   │   ├── [id]
+│   │   │   │   ├── cancel
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── proformas
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── service-matrix
+│   │   │   └── route.ts
+│   │   ├── services
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── settings
+│   │   │   ├── integrations
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── tariffs
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   ├── users
+│   │   │   ├── [id]
+│   │   │   │   └── route.ts
+│   │   │   └── route.ts
+│   │   └── webhooks
+│   │       ├── navis
+│   │       │   └── route.ts
+│   │       └── waldbott
+│   │           └── route.ts
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── auth
+│   │   ├── LoginForm.tsx
+│   │   └── PermissionGuard.tsx
+│   ├── calculations
+│   │   ├── CalculationWizard.tsx
+│   │   ├── ClientStep.tsx
+│   │   ├── CommercialValuesStep.tsx
+│   │   ├── ContainerCard.tsx
+│   │   ├── ContainersStep.tsx
+│   │   ├── OperationStep.tsx
+│   │   ├── ProformaStep.tsx
+│   │   ├── ServicesStep.tsx
+│   │   └── SummaryStep.tsx
+│   ├── clients
+│   │   ├── ClientCommercialConditions.tsx
+│   │   ├── ClientExemptions.tsx
+│   │   ├── ClientForm.tsx
+│   │   ├── ClientSegments.tsx
+│   │   └── ClientTariffs.tsx
+│   ├── dialogs
+│   │   ├── ConfirmDialog.tsx
+│   │   └── WarningDialog.tsx
+│   ├── feedback
+│   │   ├── Alert.tsx
+│   │   ├── EmptyState.tsx
+│   │   ├── LoadingState.tsx
+│   │   └── StatusBadge.tsx
+│   ├── forms
+│   │   ├── CurrencyField.tsx
+│   │   ├── DateField.tsx
+│   │   ├── DateTimeField.tsx
+│   │   ├── FormField.tsx
+│   │   ├── MultiSelectField.tsx
+│   │   ├── NumberField.tsx
+│   │   ├── SelectField.tsx
+│   │   └── TextAreaField.tsx
+│   ├── layout
+│   │   ├── AppShell.tsx
+│   │   ├── Breadcrumbs.tsx
+│   │   ├── Header.tsx
+│   │   ├── Sidebar.tsx
+│   │   └── UserMenu.tsx
+│   ├── orders
+│   │   ├── OrderStatusBadge.tsx
+│   │   └── OrderSummary.tsx
+│   ├── proformas
+│   │   └── ProformaPreview.tsx
+│   ├── service-matrix
+│   │   └── ServiceMatrix.tsx
+│   ├── services
+│   │   ├── ServiceForm.tsx
+│   │   └── ServiceSelector.tsx
+│   ├── settings
+│   │   ├── IntegrationCard.tsx
+│   │   ├── IntegrationForm.tsx
+│   │   └── IntegrationStatus.tsx
+│   ├── tables
+│   │   ├── DataTable.tsx
+│   │   ├── TableFilters.tsx
+│   │   └── TablePagination.tsx
+│   ├── tariffs
+│   │   ├── TariffForm.tsx
+│   │   ├── TariffServiceRow.tsx
+│   │   └── TariffValidity.tsx
+│   └── ui
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       ├── Checkbox.tsx
+│       ├── Input.tsx
+│       ├── Modal.tsx
+│       ├── RadioGroup.tsx
+│       ├── Select.tsx
+│       ├── Tabs.tsx
+│       └── Tooltip.tsx
+├── docs
+│   ├── ARCHITECTURE.md
+│   ├── INTEGRATIONS.md
+│   ├── NAMING_STANDARD.md
+│   ├── PROTOTYPE_SCOPE.md
+│   └── REQUIREMENTS_COVERAGE.md
+├── lib
+│   ├── api
+│   │   ├── apiError.ts
+│   │   ├── apiResponse.ts
+│   │   └── httpClient.ts
+│   ├── auth
+│   │   ├── mockUsers.ts
+│   │   ├── permissions.ts
+│   │   ├── roles.ts
+│   │   └── session.ts
+│   ├── constants
+│   │   ├── calculationTypes.ts
+│   │   ├── cargoTypes.ts
+│   │   ├── containerSizes.ts
+│   │   ├── currencies.ts
+│   │   ├── integrationTypes.ts
+│   │   ├── operationTypes.ts
+│   │   ├── orderStatus.ts
+│   │   ├── roles.ts
+│   │   ├── storageUnits.ts
+│   │   └── tariffTypes.ts
+│   ├── permissions
+│   │   └── permissionMap.ts
+│   ├── utils
+│   │   ├── currency.ts
+│   │   ├── date.ts
+│   │   ├── id.ts
+│   │   ├── logger.ts
+│   │   └── number.ts
+│   └── validation
+│       ├── calculationValidation.ts
+│       ├── clientValidation.ts
+│       ├── commonSchemas.ts
+│       └── tariffValidation.ts
+├── mock-data
+│   ├── catalogs
+│   │   ├── calculation-types.json
+│   │   ├── cargo-types.json
+│   │   ├── container-sizes.json
+│   │   ├── currencies.json
+│   │   ├── operation-types.json
+│   │   └── storage-units.json
+│   ├── audit.json
+│   ├── brokers.json
+│   ├── calculations.json
+│   ├── clients.json
+│   ├── commercial-groups.json
+│   ├── integration-logs.json
+│   ├── orders.json
+│   ├── proformas.json
+│   ├── service-matrix.json
+│   ├── services.json
+│   ├── settings.json
+│   ├── tariffs.json
+│   └── users.json
+├── public
+│   ├── icons
+│   │   └── .gitkeep
+│   ├── images
+│   │   └── .gitkeep
+│   ├── logos
+│   │   └── .gitkeep
+│   └── .gitkeep
+├── server
+│   ├── audit
+│   │   ├── auditEvent.ts
+│   │   └── auditLogger.ts
+│   ├── calculation-engine
+│   │   ├── additionalServiceResolver.ts
+│   │   ├── calculationEngine.ts
+│   │   ├── cifFobCalculator.ts
+│   │   ├── commercialRuleEngine.ts
+│   │   ├── containerCountValidator.ts
+│   │   ├── containerValidator.ts
+│   │   ├── demurrageCalculator.ts
+│   │   ├── exchangeRateCalculator.ts
+│   │   ├── exemptionResolver.ts
+│   │   ├── serviceResolver.ts
+│   │   ├── storageCalculator.ts
+│   │   └── tariffResolver.ts
+│   ├── integrations
+│   │   ├── base
+│   │   │   ├── idempotency.ts
+│   │   │   ├── IntegrationClient.ts
+│   │   │   ├── IntegrationError.ts
+│   │   │   ├── retryPolicy.ts
+│   │   │   └── webhookVerifier.ts
+│   │   ├── navis
+│   │   │   ├── dto
+│   │   │   │   ├── NavisContainerDto.ts
+│   │   │   │   └── NavisEventDto.ts
+│   │   │   ├── NavisClient.ts
+│   │   │   ├── NavisConfig.ts
+│   │   │   ├── NavisMapper.ts
+│   │   │   └── NavisSyncService.ts
+│   │   ├── outgoing
+│   │   │   ├── OutgoingApiClient.ts
+│   │   │   ├── OutgoingApiConfig.ts
+│   │   │   └── OutgoingApiService.ts
+│   │   └── waldbott
+│   │       ├── dto
+│   │       │   ├── WaldbottClientDto.ts
+│   │       │   ├── WaldbottExchangeRateDto.ts
+│   │       │   └── WaldbottOrderDto.ts
+│   │       ├── WaldbottClient.ts
+│   │       ├── WaldbottConfig.ts
+│   │       ├── WaldbottMapper.ts
+│   │       └── WaldbottSyncService.ts
+│   ├── jobs
+│   │   ├── clientSyncJob.ts
+│   │   ├── containerSyncJob.ts
+│   │   ├── integrationRetryJob.ts
+│   │   └── orderStatusSyncJob.ts
+│   ├── repositories
+│   │   ├── auditRepository.ts
+│   │   ├── brokerRepository.ts
+│   │   ├── calculationRepository.ts
+│   │   ├── clientRepository.ts
+│   │   ├── commercialGroupRepository.ts
+│   │   ├── orderRepository.ts
+│   │   ├── proformaRepository.ts
+│   │   ├── serviceMatrixRepository.ts
+│   │   ├── serviceRepository.ts
+│   │   ├── settingsRepository.ts
+│   │   ├── tariffRepository.ts
+│   │   └── userRepository.ts
+│   ├── services
+│   │   ├── auditService.ts
+│   │   ├── authService.ts
+│   │   ├── brokerService.ts
+│   │   ├── calculationService.ts
+│   │   ├── clientService.ts
+│   │   ├── commercialGroupService.ts
+│   │   ├── orderService.ts
+│   │   ├── proformaService.ts
+│   │   ├── serviceCatalogService.ts
+│   │   ├── serviceMatrixService.ts
+│   │   ├── settingsService.ts
+│   │   ├── tariffService.ts
+│   │   └── userService.ts
+│   ├── store
+│   │   └── mockStore.ts
+│   └── webhooks
+│       ├── navisWebhookHandler.ts
+│       └── waldbottWebhookHandler.ts
+├── tests
+│   ├── e2e
+│   │   ├── calculation-flow.test.ts
+│   │   └── login.test.ts
+│   ├── integration
+│   │   ├── navis.test.ts
+│   │   └── waldbott.test.ts
+│   └── unit
+│       ├── calculation-engine
+│       │   ├── calculationEngine.test.ts
+│       │   ├── containerValidator.test.ts
+│       │   └── demurrageCalculator.test.ts
+│       └── services
+│           ├── clientService.test.ts
+│           └── tariffService.test.ts
+├── types
+│   ├── api.ts
+│   ├── audit.ts
+│   ├── auth.ts
+│   ├── broker.ts
+│   ├── calculation.ts
+│   ├── client.ts
+│   ├── commercialCondition.ts
+│   ├── commercialGroup.ts
+│   ├── container.ts
+│   ├── integration.ts
+│   ├── order.ts
+│   ├── proforma.ts
+│   ├── service.ts
+│   ├── serviceMatrix.ts
+│   ├── settings.ts
+│   ├── tariff.ts
+│   └── user.ts
+├── .env.example
+├── .gitignore
+├── middleware.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── README.md
+└── tsconfig.json
