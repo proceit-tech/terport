@@ -50,7 +50,23 @@ Ficheros prioritarios para revisión sin publicar sus contenidos sensibles: `con
 
 **Estado de publicación:** este documento registra sólo metadatos no secretos; **los 1.548 archivos originales NO se han subido a GitHub**.
 
-## 4. Secuencia de auditoría F00, sin alterar producción
+## 4. Mapa inicial de navegación observado (NO homologado)
+
+Se analizó **sin ejecutar PHP** el archivo `terport/configs/modules.edu.php`. Su contenido es una **estructura PHP serializada** (`a:5`), no un archivo PHP ejecutable. Se interpretó únicamente como datos, sin invocar `unserialize` en el sistema del cliente.
+
+Se encontraron **5 módulos raíz** y **37 entradas de submenú declaradas**:
+
+| Módulo raíz | Submenús declarados | Identificadores y etiquetas (según fuente) |
+|---|---:|---|
+| Dashboard | 0 | Página principal |
+| Sistema | 19 | `usuarios` Usuarios; `roles` Roles; `aprobadores` Usuarios aprobadores; `auditoria` Log de auditoría; `tarifasaprobadas` Tarifas aprobadas; `tarifasparaaprobar` Tarifas para aprobar; `tarifaseliminadas` Tarifas eliminadas; `tarifasavencer` Tarifas a vencer; `clientescip` Clientes/CIP; `limpiarcache` Limpiar caché; `segmentos` Segmentos; `tasa_servicio` Tasas/Servicios; `plantilla_tasa_servicio` Plantilla de Tasas/Servicios; `plantilla_tasa` (sin etiqueta); `agenda_comercial` Agenda Comercial; `comercial_miembros` Miembros Comercial; `contratos` Contratos; `agenda_comercial_detalle` (sin etiqueta); `agenda_comercial_cotizaciones` (sin etiqueta) |
+| Comercial | 11 | `tarifario` Cliente Tasa; `tarifas` Tarifas; `tarifa_minima` Tarifa mínima; `clientes_grupos` Grupos de clientes; `equivalencias` Equivalencias; `tarifa` (sin etiqueta); `clientes` (sin etiqueta); `cliente_tasa` Cliente Tasas; `ocit_clientes` OCIT; `agenda_comercial_v2` Agenda Comercial V2; `agenda_comercial_detalle_v2` (sin etiqueta) |
+| Reportes | 7 | `rccne` Clientes con negociación especial; `rtv` Tarifas vigentes; `rudlt` Utilización de las tarifas; `rtf` Tarifas facturadas; `rpdfpu` Promedio de facturación por usuario; `reporte_cumplimiento_ac` R. Cumplimiento Semanal; `reporte_cumplimiento_ac_mensual` R. Cumplimiento Mensual |
+| Facturación | 0 | Página principal `Cálculo Tasas y Otros Servicios` |
+
+**Advertencia de evidencia:** 37 son **entradas declaradas**, no 37 pantallas necesariamente visibles ni 37 funcionalidades probadas. La visualización final depende de roles, transformaciones en `templates/inc/sidebar.edu.php`, `index.php`, rutas reales y archivos físicos. Algunas entradas tienen etiqueta vacía. En particular, `agenda_comercial_v2` figura en un módulo distinto de `agenda_comercial`; NO fusionarlas sin documentar sus rutas y controles. La próxima ficha requiere validar navegación y rastrear SQL.
+
+## 5. Secuencia de auditoría F00, sin alterar producción
 
 1. Preservar ZIP original y SHA; crear inventario de archivos y duplicados de código, distinguiendo versión activa de backups.
 2. Revisar código de entrada `index.php`, `configs/modules.edu.php` y navegación `templates/inc/sidebar.edu.php`; enumerar menús y roles **desde el código real**, no inventar.
@@ -61,6 +77,6 @@ Ficheros prioritarios para revisión sin publicar sus contenidos sensibles: `con
 
 **Reglas:** ninguna ejecución SQL, tests, despliegue, merge ni cambios del legado sin autorización; trabajar primero con el código fuente más reciente completo. Mantener cualquier acceso al DB1 separado del servidor web.
 
-## 5. Próxima acción
+## 6. Próxima acción
 
 Proceder al inventario real de menús y a la clasificación de archivos que deben quedar excluidos de Git; no confundir el prototipo React con el PHP legado. Antes de mover documentación desde `terportV2`, preservar commits y preparar una historia limpia de despliegue, sujeta a revisión y aprobación humana.
