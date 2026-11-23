@@ -1,6 +1,6 @@
 # TERPORT — LEG-MEN-003 · Comercial > Tarifas — Auditoría técnica y funcional F00/R01
 
-**Fecha:** 2026-11-23. **Estado:** LEVANTAMIENTO ESTÁTICO COMPLETO DEL MENÚ Y DE SUS CUATRO APIs DIRECTAS; NO HOMOLOGADO.  
+**Fecha:** 2026-11-23. **Estado:** LEVANTAMIENTO ESTÁTICO DEL MENÚ ACTIVO Y SUS CUATRO APIs DIRECTAS; **AUDITORÍA DE VARIANTES HISTÓRICAS AÚN PENDIENTE**, NO HOMOLOGADO. No se toma ninguna decisión sobre qué copiar, eliminar o rediseñar en V2.  
 **Fuente:** terport.zip / terport(1).zip, idénticos por SHA-256: 3e89b3e3d92549ff38990cc8296075ad3eb7788553fb5641246fc2eb6fd506a6.  
 **Regla de entrega:** documentación interna del equipo en el repo de análisis **proceit-tech/terport**, rama pro-366-inventario-legado-f00, PR #2 Draft. **No** se publican archivos PHP originales, valores de configuración, secretos, datos personales ni información operativa del cliente en el repositorio público.  
 **Método:** lectura estática de los archivos del ZIP, interpretación del catálogo de módulos serializado como datos, rastreo de llamadas y SQL; **sin ejecutar PHP, SQL, tests, comandos remotos, despliegue o desarrollo**.  
@@ -131,7 +131,7 @@ La matriz de columnas de modules.edu.php declara los siete campos como **visible
 - **api/getReporteTarifario.edu.php L35–59:** imprime tarifas por ARTICULO, CLIENTES, SEGMENTOS y TARIFA_CLIENTES_ARTICULOS, NO por TARIFAS.
 - **Agenda Comercial V2 (LEG-MEN-001):** cotizaciones y tarifa por ARTICULO, con aprobación de cotización distinta de aprobación final de tarifa.
 
-**Conclusión de alcance:** el menú TARIFAS está **visualmente tachado en un ramo de la sidebar**, y parte del sistema pasó al modelo de ARTICULO. **No inferir que TARIFAS es obsoleta en la BD ni que puede borrarse**, porque persisten lectores activos/históricos. **No decidir todavía migrar sus siete columnas tal cual**: eso corresponde a F01 (brechas) y F02 (modelo nuevo) después de confirmar uso y reglas de negocio.
+**Conclusión documental, NO decisión de implementación:** el menú TARIFAS está **visualmente tachado en un ramo de la sidebar** y convive con el modelo de ARTICULO. Ambos modelos, incluidas sus variantes históricas, deben inventariarse y preservarse como evidencia. **No inferir que TARIFAS está inactiva, que puede eliminarse ni que debe reproducirse tal cual en V2.** F00 documenta; F01 comparará con los 50 RF y prototipo; F02/F03 proyectarán el sistema nuevo tras aprobación.
 
 ## 7. Hallazgos, gravedad e impacto
 
@@ -178,7 +178,7 @@ La matriz de columnas de modules.edu.php declara los siete campos como **visible
 - Cache, consumidores y coexistencia con nuevo modelo por artículo: sí, trazado de archivos relevantes.
 - 20 scripts SQL existentes en ZIP: revisados para localizar CREATE TABLE TARIFAS; **no encontrado**.
 - Efectos transversales del router: referencia a F00-002, sin repetir una auditoría completa de esos procesos.
-- Versiones **.bak/.orig**: no se han validado como fuente de código activo; no incorporar su lógica en el alcance sin evidencia.
+- Versiones **.bak/.orig** y otras variantes: **AÚN NO INVENTARIADAS NI COMPARADAS COMPLETAMENTE**; preservarlas como evidencia histórica e identificar qué funcionalidades/reglas difieren, aunque no se demuestre uso actual. No marcarlas descartadas. Referencia: F00-004 política de preservación.
 
 **No realizado / no comprobable por estos archivos:**
 - Confronto de DB1 activa con el ZIP, estructura completa de TARIFAS, PK/FK/índices, constraints, valores permitidos, auditoría histórica y frecuencia de uso.
@@ -189,3 +189,9 @@ La matriz de columnas de modules.edu.php declara los siete campos como **visible
 **Condición para VALIDADO:** revisar esta ficha con el responsable, confirmar qué modelo es fuente de verdad y qué funciones antiguas siguen activas, obtener DDL/metadatos actuales y registrar decisiones expresas. **Estado actual: DOCUMENTADO ESTÁTICAMENTE / VALIDACIÓN PENDIENTE.**
 
 **Sin orden a Claude, sin modificación de aplicación, sin SQL, sin deploy y sin merge.**
+
+## 10. Corrección explícita del objetivo del proyecto — 23/11/2026
+
+**Por decisión del responsable:** las fichas F00 analizan y documentan el legado completo y sus versiones anteriores. **No se trata de reproducir el PHP antiguo**, ni de excluir funciones por parecer deprecadas. La ficha LEG-MEN-003 cubre inicialmente el archivo activo en el ZIP, pero todavía requiere comparar variantes .bak/.orig, cambios entre releases y consumidores antiguos antes de cerrar el inventario histórico. Después de F00, **los 50 requisitos RF-01…RF-50 de Linear** y el prototipo aceptado serán confrontados con todas las funciones registradas; sólo entonces se diseñará **un sistema nuevo** en F02/F03. Ninguna decisión de mantener, modificar o eliminar se da por tomada aquí.
+
+Política: [F00-004 — Preservação de versões e conhecimento legado](F00-004-PRESERVACAO-VERSOES-REGRAS-REQUISITOS-R01.md).
