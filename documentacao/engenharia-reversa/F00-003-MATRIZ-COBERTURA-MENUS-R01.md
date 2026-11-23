@@ -56,6 +56,12 @@
 - Manter levantamento pontual de autorizações necessárias a tarifas, contratos, negociações, aprovações e faturação. Um cadastro administrativo novo não dispensa identificar quem pode executar operações sensíveis.
 - **Estado da matriz:** a entrada Usuarios segue existindo no legado, mas fica **FORA DO ESCOPO DE REVERSA DETALHADA** por decisão expressa, não `inexistente` nem `documentada`.
 
+## Política de conservação das versões — 23/11/2026
+
+Esta matriz é apenas um **índice de entradas do ZIP entregue**, não é lista de funções a reproduzir ou eliminar na V2. Para cada menu de negócio devemos conciliar código vigente no pacote, variantes de versões anteriores (.bak/.orig e outros pacotes históricos), telas sem rótulo, APIs sem tela, jobs e dependências SQL. **Não perder funcionalidades legadas.** Depois de fechar F00, comparar todos os fluxos documentados com **RF-01…RF-50 e o protótipo aceito** (F01), antes de qualquer decisão de novo desenho.
+
+Referência obrigatória: [F00-004 — Preservação das versões](F00-004-PRESERVACAO-VERSOES-REGRAS-REQUISITOS-R01.md). O estado 'PENDENTE' inclui também comparação histórica; 'documentado estaticamente' refere-se ao código examinado, **não** valida todas as versões.
+
 ## Pontos de controle
 - **5 módulos raiz; 37 entradas filhas declaradas.** Destas, 31 têm rótulo não vazio e 6 não têm; o número de entradas exibidas depende de perfil, ambiente e remanejamentos no sidebar.
 - **3 entradas sem tipo de página nem template específico** na matriz: Sistema/plantilla_tasa; Comercial/tarifa e Comercial/clientes. Não tratá-las como tela operacional confirmada.
