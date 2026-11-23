@@ -10,7 +10,7 @@
 ## 37 entradas declaradas em submenus
 | Módulo | ID da rota | Rótulo | Tipo | Template físico | F00 |
 |---|---|---|---|---|---|
-| Sistema | usuarios | Usuarios | page | presente | PENDENTE |
+| Sistema | usuarios | Usuarios | page | presente | DISPENSADO da reversa detalhada — novo desenho PROCEIT |
 | Sistema | roles | Roles | page | presente | PENDENTE |
 | Sistema | aprobadores | Usuarios aprobadores | page | presente | PENDENTE |
 | Sistema | auditoria | Log de auditoría | page | presente | PENDENTE |
@@ -47,6 +47,14 @@
 | Reportes | rpdfpu | Promedio de facturación por usuario | page | presente | PENDENTE |
 | Reportes | reporte_cumplimiento_ac | R. Cumplimiento Semanal | page | presente | PENDENTE |
 | Reportes | reporte_cumplimiento_ac_mensual | R. Cumplimiento Mensual | page | presente | PENDENTE |
+
+## Decisão de escopo — 23/11/2026 (responsável PROCEIT)
+
+- **Sistema / Usuarios:** excluir da engenharia reversa detalhada F00. O novo cadastro e gestão de usuários serão desenhados pela PROCEIT, sem replicar o PHP antigo. Esta exclusão **não implica eliminar a autenticação, auditoria ou controle de acesso no produto V2**.
+- O ID **LEG-MEN-003** não será atribuído a Usuarios. O próximo menu funcional a estudar será **Comercial / Tarifas**, com o ID LEG-MEN-003, após verificação de fontes.
+- **Roles, Usuarios aprobadores e outros cadastros técnicos:** a abordagem proposta é de novo desenho; eventual exclusão detalhada de cada um deve seguir a decisão de escopo do responsável, sem presumir que regras de aprovação de negócios sejam descartadas.
+- Manter levantamento pontual de autorizações necessárias a tarifas, contratos, negociações, aprovações e faturação. Um cadastro administrativo novo não dispensa identificar quem pode executar operações sensíveis.
+- **Estado da matriz:** a entrada Usuarios segue existindo no legado, mas fica **FORA DO ESCOPO DE REVERSA DETALHADA** por decisão expressa, não `inexistente` nem `documentada`.
 
 ## Pontos de controle
 - **5 módulos raiz; 37 entradas filhas declaradas.** Destas, 31 têm rótulo não vazio e 6 não têm; o número de entradas exibidas depende de perfil, ambiente e remanejamentos no sidebar.
