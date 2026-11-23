@@ -30,7 +30,7 @@
 | Sistema | agenda_comercial_detalle | (sem rótulo) | page | presente | PENDENTE |
 | Sistema | agenda_comercial_cotizaciones | (sem rótulo) | page | presente | PENDENTE |
 | Comercial | tarifario | Cliente Tasa | page | presente | PENDENTE |
-| Comercial | tarifas | Tarifas | page | presente | PENDENTE |
+| Comercial | tarifas | Tarifas | page | presente | **LEG-MEN-003 — auditoria estática documentada; validação pendente (PRO-368)** |
 | Comercial | tarifa_minima | Tarifa mínima | list | templates/list.edu.php | PENDENTE |
 | Comercial | clientes_grupos | Grupos de clientes | page | presente | PENDENTE |
 | Comercial | equivalencias | Equivalencias | list | templates/list.edu.php | PENDENTE |
