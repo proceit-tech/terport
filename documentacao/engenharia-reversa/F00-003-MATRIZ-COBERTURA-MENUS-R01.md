@@ -4,7 +4,7 @@
 **Estado:** inspeção de nomes/tipos e existência física de templates no ZIP. Não representa teste de navegação, API, banco ou permissões em produção.
 
 ## Páginas raiz
-- **Dashboard:** tipo page, template templates/dashboard.edu.php presente. Ficha funcional ainda PENDENTE.
+- **Dashboard:** tipo page, template `templates/dashboard.edu.php` presente; ficha funcional `LEG-MEN-002-DASHBOARD-R01.md` **DOCUMENTADA POR LEITURA ESTÁTICA**, homologação do responsável pendente (Linear PRO-367).
 - **Facturación:** tipo page, template templates/facturacion.edu.php presente. Ficha funcional ainda PENDENTE.
 
 ## 37 entradas declaradas em submenus
