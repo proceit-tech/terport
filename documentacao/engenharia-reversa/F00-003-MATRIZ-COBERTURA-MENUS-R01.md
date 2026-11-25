@@ -29,7 +29,7 @@
 | Sistema | contratos | Contratos | page | presente | PENDENTE |
 | Sistema | agenda_comercial_detalle | (sem rótulo) | page | presente | PENDENTE |
 | Sistema | agenda_comercial_cotizaciones | (sem rótulo) | page | presente | PENDENTE |
-| Comercial | tarifario | Cliente Tasa | page | presente | PENDENTE |
+| Comercial | tarifario | Cliente Tasa | page | presente | **LEG-MEN-004 — documentado estaticamente; variantes comparadas; validação pendente** |
 | Comercial | tarifas | Tarifas | page | presente | **LEG-MEN-003 — auditoria estática documentada; validação pendente (PRO-368)** |
 | Comercial | tarifa_minima | Tarifa mínima | list | templates/list.edu.php | PENDENTE |
 | Comercial | clientes_grupos | Grupos de clientes | page | presente | PENDENTE |
@@ -61,6 +61,12 @@
 Esta matriz é apenas um **índice de entradas do ZIP entregue**, não é lista de funções a reproduzir ou eliminar na V2. Para cada menu de negócio devemos conciliar código vigente no pacote, variantes de versões anteriores (.bak/.orig e outros pacotes históricos), telas sem rótulo, APIs sem tela, jobs e dependências SQL. **Não perder funcionalidades legadas.** Depois de fechar F00, comparar todos os fluxos documentados com **RF-01…RF-50 e o protótipo aceito** (F01), antes de qualquer decisão de novo desenho.
 
 Referência obrigatória: [F00-004 — Preservação das versões](F00-004-PRESERVACAO-VERSOES-REGRAS-REQUISITOS-R01.md). O estado 'PENDENTE' inclui também comparação histórica; 'documentado estaticamente' refere-se ao código examinado, **não** valida todas as versões.
+
+### Corte LEG-MEN-004 — 25/11/2026
+
+- `Comercial/tarifario` é **Cliente Tasa**, tarifário original sobre `TARIFA_CLIENTES`; sete APIs, estados e linhas LISTAS por cliente, documentado em [LEG-MEN-004 R01](LEG-MEN-004-COMERCIAL-CLIENTE-TASA-R01.md).
+- `Comercial/cliente_tasa` é **Cliente Tasas**, interface distinta de `TARIFA_CLIENTES_ARTICULOS`, com versão `cliente_tasa.edu.vprod06012020.php`; **pendente de ficha própria**, não agrupar silenciosamente com Cliente Tasa.
+- Histórico de variantes `.bak/.orig` do fluxo auditado com hash: [LEG-MEN-004 — checksums](LEG-MEN-004-VARIANTES-CHECKSUMS-R01.md). Nenhuma decisão sobre perder, substituir ou reproduzir funções, até fechamento F00 e comparação com 50 RF.
 
 ## Pontos de controle
 - **5 módulos raiz; 37 entradas filhas declaradas.** Destas, 31 têm rótulo não vazio e 6 não têm; o número de entradas exibidas depende de perfil, ambiente e remanejamentos no sidebar.
